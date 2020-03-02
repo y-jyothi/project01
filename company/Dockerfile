@@ -6,7 +6,7 @@ RUN echo 'Deploying War on Server'
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 COPY /target/company-0.0.1-SNAPSHOT.war.original  /usr/local/tomcat/webapps/ROOT.war
-EXPOSE 8080
+EXPOSE 808
 CMD ["catalina.sh", "run"]
 
 
